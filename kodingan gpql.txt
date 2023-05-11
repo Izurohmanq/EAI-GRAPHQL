@@ -1,0 +1,16 @@
+mutation {
+  createEvent(eventInput: {title: "Montana", description: "Tah hitam merona", price: 10.99, date: "20-12-2023"}) {
+    title
+  }
+}
+
+mutation {
+  updateEvent(id:"645bbc0e1c60eb02e70beb29", eventInput: {title: "Burona", description: "Tah Biru merona", price: 12.99, date: "20-11-2023"}) {
+    title
+  }
+}
+
+mutation {
+  deleteEvent(id:"645c44f4f2a65e2ba0ddc2e4")
+}
+
