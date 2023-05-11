@@ -7,6 +7,16 @@
 # EAI-GRAPHQL
 EAI-GRAPHQL
 
+## PASTIKAN SUDAH MENGINSTALL 2 INI YA KAWAN
+
+- Untuk tutorial penginstallan NodeJS
+
+[![TUTORIAL PENGINSTALLAN NODEJS BY SANDHIKA GALIH AKA WPU](https://img.youtube.com/vi/VfN1_pEdQAA/0.jpg)](https://www.youtube.com/watch?v=VfN1_pEdQAA)
+
+- Untuk Penginstallan MongoDB
+
+[![TUTORIAL PENGINSTALLAN MONGODB BY SANDHIKA GALIH AKA WPU](https://img.youtube.com/vi/iXhmi0NYdc8/0.jpg)](https://www.youtube.com/watch?v=iXhmi0NYdc8)
+
 ## Cara Menjalankan Graphql
 *Salin perintah ini di terminal kamu atau git bash*
 
@@ -30,3 +40,23 @@ npm install
     "start": "nodemon app.js"
   }
 ```
+
+- Pada file app.js terdapat mongoDB, itu sesuaikan saja sesuai dengan kebutuhan kalian
+
+```bash
+mongoose.connect('mongodb://127.0.0.1:27017/graphqleai', { useNewUrlParser: true })
+    .then(() => {
+        app.listen(3000);
+    })
+    .catch(err => {
+        console.log(err);
+    });
+```
+
+- Untuk menjalankan aplikasinya
+
+```bash
+nodemon app
+```
+
+
