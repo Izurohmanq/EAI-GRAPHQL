@@ -7,6 +7,15 @@
 # EAI-GRAPHQL
 EAI-GRAPHQL
 
+# ANGGOTA KELOMPOK
+
+| No  | Nama                                                                 | NIM        |
+| --- | -------------------------------------------------------------------- | ---------- |
+| 1   | [Fadli Izurohman](https://www.instagram.com/izurohmanq)              | 1202204033 |
+| 2   | [Rafi Ahmad Khairan](https://www.instagram.com/rafidfadhill)         | 1202200199 |
+| 3   | [Diki Ilham Firmansyah](https://www.instagram.com/diki_if)           | 1202202134 |
+| 4   | [Abdul Ghani Muzakki](https://www.instagram.com/mzakkighn)           | 1202204308 |
+
 ## PASTIKAN SUDAH MENGINSTALL 2 INI YA KAWAN
 
 - Untuk tutorial penginstallan NodeJS
@@ -18,7 +27,7 @@ EAI-GRAPHQL
 [![TUTORIAL PENGINSTALLAN MONGODB BY SANDHIKA GALIH AKA WPU](https://img.youtube.com/vi/iXhmi0NYdc8/0.jpg)](https://www.youtube.com/watch?v=iXhmi0NYdc8)
 
 ## Cara Menjalankan Graphql
-*Salin perintah ini di terminal kamu atau git bash*
+*Salin perintah ini di GIT BASH ya ges yaaaa*
 
 - Clone project from github
 

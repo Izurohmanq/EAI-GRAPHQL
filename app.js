@@ -49,7 +49,8 @@ app.use('/graphql', graphqlHTTP({
             try {
                 const events = await Event.find();
                 return events.map(event => {
-                    return { ...event._doc };
+                    // return { ...event._doc };
+                    return { ...event.toJSON() };
                 });
             } catch (err) {
                 throw err;
@@ -60,7 +61,7 @@ app.use('/graphql', graphqlHTTP({
             const event = new Event ({
                 title: args.eventInput.title,
                 description: args.eventInput.description,
-                price: +args.eventInput.price,
+                price: args.eventInput.price,
                 date: args.eventInput.date
             })
             try {
